@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+  }
+body{
+  background-color: rgb(39, 37, 37); 
+}
+a{
+  text-decoration: none;
+}
+.barra{
+  background-color: rgb(46, 45, 45);
+  width: 100%;
+  height: 8.3%;
+  position: fixed;
+  font-size: 20px;
+}
+.nombre{
+padding-top: 5px;
+color: aquamarine;
+margin-left: 5%;
+font-size: 30px;
+font-weight: bold;
+}
+.guia{
+  position: absolute;
+  top: 16px;
+  margin-left: 65%;
+  display: flex;
+  flex-direction: row;
+}
+.guia .item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#inicio {
+  background: url(Fotos/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.presentacion{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+  border-radius: 10%;
+}
+.yo{
+  margin: 20px;
+ width: 300px;
+ height: 300px;
+ border:7px solid ;
+ color: aquamarine;
+ border-radius: 30px;
+}
+.links a{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.sobremi{
+  padding-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.sobremi div h1 {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: aquamarine;
+}
+.sobremi div h2 {
+  font-size: 25px;
+}
+.sobremi p span{
+  color: aquamarine;
+  font-weight: bold;
+}
+ul li span{
+  color: aquamarine;
+  font-weight: bold;
+}
+.fila{
+  display: flex;
+  flex-direction: row;
+}
+.columna1 {
+  display: inline-block;
+  margin-top: 40px;
+}
+.columna1 ul li{
+  margin: 5px 0px;
+}
+.columna2{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.sobremi .fila .columna2 .contenedor-intereses .intereses{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(46, 45, 45);
+  border-radius: 10%; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 5px;
+}
+.sobremi .fila .columna2 .contenedor-intereses .intereses:hover{
+  background-color: rgb(38, 216, 157);
+}
+.contenedor-intereses{
+  display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+}
+.intereses i{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#habilidades div h1{
+  color: aquamarine;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.lenguajes{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.lenguajes .habilidad {
+  height: 100;
+  width: 100;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.lenguajes  div img {
+  height: 115px;
+  width: 115px;
+} 
+.lenguajes div span{
+  margin-top: 15px;
+}
+.habilidades{
+  background-color: rgba(51, 47, 47, 0.95);
+}
+.contacto div h1{
+  color: aquamarine;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.contact{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(64, 58, 58);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  box-shadow:0 0 20px rgb(0,0,0, 0.3) ;
+  padding: 50px 55px 85px 55px;
+  text-align: left;
+  width: 340px;
+  height: 490px;
+  padding-top: 100px;
+}
+input{
+  padding: 17px 10px;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 20px;
+  outline: none;
+}
+input::placeholder{
+  color: gray;
+}
+.btn{
+  margin-top: 30px;
+  margin-bottom: 10px;
+ border: 0;
+ border-radius: 25px;
+ width: 260px;
+ background-color: aquamarine;
+}
+
+
+
+
